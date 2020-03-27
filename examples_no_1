@@ -1,9 +1,11 @@
+# Hello World program; getting started
 '''
 print("Hellloo Worllddd !! by Varun")
 print(input("Code is waiting: Press Return"))
 '''
 
 
+#Printing out and concatenating a string
 '''
 price = '10'
 print("Price = " + price)
@@ -14,6 +16,7 @@ print ('\nHi '+ name + ' your favorite color is ' + color)
 '''
 
 
+#String manipulations
 '''
 birth_year = int(input('Birth Year: '))
 print('birth_year is of type')
@@ -29,6 +32,7 @@ print('Age: ' + str(age))
 '''
 
 
+#Convert weight from Pounds to Kilos
 '''
 weight_lbs = float(input("Please Enter your weight in lbs: "))
 weight_kgs = weight_lbs*0.4536
@@ -36,6 +40,7 @@ print("Your weight is " + str(weight_kgs) + " kgs")
 '''
 
 
+# Formatted strings
 '''
 first = 'John'
 last = 'Smith'
@@ -44,6 +49,7 @@ print(msg)
 '''
 
 
+#String array
 '''
 course = 'python for beginners'
 print(len(course))
@@ -56,6 +62,7 @@ print('x' in course)
 '''
 
 
+#Conditional statements
 '''
 house_price = 1000000
 good_credit = False
@@ -67,6 +74,7 @@ else:
 '''
 
 
+#Conditional statements 2
 '''
 temperature = 11
 if temperature >= 30:
@@ -78,6 +86,7 @@ else:
 '''
 
 
+#Conditional statemenets3
 '''
 UserName = input(print(f"Enter 'Username' here: "))
 if len(UserName) <= 3:
@@ -89,6 +98,7 @@ else:
 '''
 
 
+# Convert weight to Lbs and/or Kgs based on user input
 '''
 Unit = input(print(f"Please Enter units of weight. 'L'' for Lbs and 'K' for KGs"))
 if Unit.upper() == 'L':
@@ -102,6 +112,7 @@ else:
 '''
 
 
+#Draw a triangle of '*'
 '''
 i = 1
 j = 1
@@ -116,6 +127,7 @@ print(f"Done")
 '''
 
 
+# Car start/stop program
 '''
 string = input(f">")
 while string != 'quit' and i == 1:
@@ -135,6 +147,7 @@ else:
 '''
 
 
+#For loop example 1
 '''
 prices = [10, 20, 30]
 total = 0
@@ -144,6 +157,7 @@ print(total)
 '''
 
 
+# For loop example 2
 '''
 for x in range(3):
     for y in range(4):
