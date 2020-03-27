@@ -1,0 +1,151 @@
+'''
+print("Hellloo Worllddd !! by Varun")
+print(input("Code is waiting: Press Return"))
+'''
+
+
+'''
+price = '10'
+print("Price = " + price)
+name = input("What is your name? ")
+print('Hi ' + name)
+color = input("What is your favorite color ? ")
+print ('\nHi '+ name + ' your favorite color is ' + color)
+'''
+
+
+'''
+birth_year = int(input('Birth Year: '))
+print('birth_year is of type')
+print(type(birth_year))
+current_year = int(input('Current year: '))
+print('current_year is of type')
+print(type(current_year))
+age = int(current_year) - int(birth_year)
+print('age is of type')
+print(type(age))
+print('Age: ' + str(age))
+
+'''
+
+
+'''
+weight_lbs = float(input("Please Enter your weight in lbs: "))
+weight_kgs = weight_lbs*0.4536
+print("Your weight is " + str(weight_kgs) + " kgs")
+'''
+
+
+'''
+first = 'John'
+last = 'Smith'
+msg = f'{first} [{last}] is a coder'
+print(msg)
+'''
+
+
+'''
+course = 'python for beginners'
+print(len(course))
+print(course.lower())
+print(course.capitalize())
+print(course.upper())
+print(course.replace('n','m'))
+print('for' in course)
+print('x' in course)
+'''
+
+
+'''
+house_price = 1000000
+good_credit = False
+
+if good_credit:
+    print(f"Make down payment of $ {0.1*house_price}")
+else:
+    print(f"Make down payment of $ {0.2*house_price}")
+'''
+
+
+'''
+temperature = 11
+if temperature >= 30:
+    print(f"It's a hot day! It's {temperature} degrees Celsius")
+elif temperature <= 10:
+    print(f"It's a cold day! It's {temperature} degrees Celsius")
+else:
+    print(f"It's neither hot nor cold! It's {temperature} degrees Celsius")
+'''
+
+
+'''
+UserName = input(print(f"Enter 'Username' here: "))
+if len(UserName) <= 3:
+    print(f"Hi {UserName} Username must be greater than 3 characters")
+elif len(UserName) >= 50:
+    print(f"Hi {UserName} Username must be less than 50 characters")
+else:
+    print(f"Hi {UserName} Username looks good in terms of Number of characters")
+'''
+
+
+'''
+Unit = input(print(f"Please Enter units of weight. 'L'' for Lbs and 'K' for KGs"))
+if Unit.upper() == 'L':
+    Weight_lbs = float(input(print(f"Enter User's weight in 'lbs'")))
+    print(f"User's weight is {Weight_lbs} Lbs and {Weight_lbs/2.2} KGs")
+if Unit.upper() == 'K':
+    Weight_kgs = float(input(print(f"Enter User's weight in 'kgs'")))
+    print(f"User's weight is {Weight_kgs} KGs is {Weight_kgs*2.2} lbs")
+else:
+    print(f"Enter 'K' for KGs and 'L' for lbs")
+'''
+
+
+'''
+i = 1
+j = 1
+while i <=5 and j == 1:
+    print(i * '*')
+    i = i + 1
+j = j + 1
+while i >= 0 and j == 2:
+    print(i * '*')
+    i = i - 1
+print(f"Done")
+'''
+
+
+'''
+string = input(f">")
+while string != 'quit' and i == 1:
+    print(f">")
+    if string == 'start':
+        print(f"Car started! Ready to go")
+        i = 0
+    elif string == 'stop':
+        print(f"Car stopped!")
+        i = 0
+    else:
+        print(f"I don't understand that!")
+        break
+
+else:
+    print(f"> End")
+'''
+
+
+'''
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total = price + total
+print(total)
+'''
+
+
+'''
+for x in range(3):
+    for y in range(4):
+        print(f"({x},{y})")
+'''
