@@ -1,0 +1,105 @@
+# Print a required Letter (F)
+'''
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+'''
+
+
+# Find the largest number in a list
+'''
+numbers = [40, 3, 33, 26, 10, 8, 34]
+largest = numbers[0]
+for index in numbers:
+    if largest < index:
+        largest = index
+print(f"Largest number in the list: {largest}")
+'''
+
+
+# Lists manipulation functions
+'''
+numbers = [5, 2, 4, 7, 1]
+print(f"Numbers list: {numbers}")
+numbers.sort()
+sorted_numbers = numbers
+print(f"Sorted numbers: {sorted_numbers}")
+numbers.reverse()
+reversed_numbers = numbers
+print(f"Reversed numbers: {reversed_numbers}")
+numbers.append(7)
+appended_7 = numbers
+print(f"Appended 7 list: {appended_7}")
+numbers.insert(3, 11)
+inserted_11 = numbers
+print(f"Inserted_11 list: {inserted_11}")
+numbers.remove(1)
+removed_1 = numbers
+print(f"Removed_1 list: {removed_1}")
+print(f"11 in numbers list: {11 in numbers}")
+numbers.append(5)
+print(f"Appended 5 list: {numbers}")
+print(f"Count of '5' in numbers: {numbers.count(5)}")
+'''
+
+# Remove duplicates in a list
+'''
+numbers_with_dups = [2, 3, 5, 4, 2, 5, 7, 3, 8, 1, 9]
+new_list = []
+for numb in numbers_with_dups:
+    if numb not in new_list:
+        new_list.append(numb)
+print(f"No duplicate list: {new_list}")
+'''
+
+# Dictionary, number-string to word-string
+'''
+
+
+'''
+
+
+# Word splitter and emojis
+'''
+message = input("> ")
+word_list = message.split(" ")
+print(message)
+print(word_list)
+emoji = {
+    ":)": "(Happy Smilie Face)",
+    ":(": "(Sad Smilie Face)",
+    ":*": "(Kiss Smilie face)"
+}
+output = ""
+for word in word_list:
+    output += emoji.get(word, word) + " "
+print(output)
+'''
+
+
+# Emoji converter function (INCOMPLETE)
+
+'''
+def emoji_converter(string):
+    word_list = string.split(" ")
+    print(f"Word list: '{word_list}'")
+    emotes = {
+        ":)": "(Happy Smilie Face)",
+        ":(": "(Sad Smilie Face)",
+        ":*": "(Kiss Smilie face)"
+    }
+    output = ""
+    for word in word_list:
+        output = output + emotes.get(word, word) + " "
+        return output
+
+
+message = input("> ")
+print(f" User message is '{message}'")
+result = emoji_converter(message)
+print(f"Result is '{result}'")
+'''
+
